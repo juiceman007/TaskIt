@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="25dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:background="@color/colorPrimary"
+    tools:context=".Activities.MainActivity">
+
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+     <TextView
+         android:paddingTop="3dp"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="@string/your_tasks"
+         android:textColor="#FFFFFF"
+         android:textSize="32sp"
+         android:elevation="10dp"
+         />
+
+    <Button
+        android:id="@+id/addTask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/button_bg_shadow"
+        android:onClick="goToAddTask"
+        android:paddingLeft="25dp"
+        android:paddingTop="15dp"
+        android:paddingRight="25dp"
+        android:paddingBottom="20dp"
+        android:text="@string/addTaskButton"
+        android:textColor="@color/colorPrimary"
+        tools:ignore="RelativeOverlap"
+        android:visibility="gone"/>
+</RelativeLayout>
+
+    <TextView
+        android:id="@+id/noTask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="5dp"
+        android:textSize="24sp"
+        android:textColor="#FFFFFF"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="8dp"
+        android:id="@+id/list_relative_layout">
+    <ListView
+        android:id="@+id/listOfTasks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="2dp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:src="@drawable/ic_add_black_24dp"
+        android:contentDescription="@string/addTaskButton"
+        android:layout_margin="16dp"
+        app:fabSize="normal"
+        android:elevation="6dp"
+        android:layout_alignParentEnd="true"
+        android:onClick="goToAddTask"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+
+
+</LinearLayout>

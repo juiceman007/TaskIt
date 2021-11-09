@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">TickLog</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="addTaskTitle">Add a new Task</string>
+    <string name="NoTasks">You currently have no Tasks!</string>
+    <string name="taskName">Name of Task</string>
+    <string name="addTaskButton">+ Add Task</string>
+    <string name="subTask">+ Add milestone</string>
+    <string name="addSubTaskButton">+ Add an objective to your checklist</string>
+    <string name="setDate">Set the Due Date for this task</string>
+    <string name="delete">delete</string>
+    <string name="selectDate">Set Deadline Date</string>
+    <string name="selectTime">Set Deadline Time</string>
+    <string name="editDeadline">Edit Date</string>
+    <string name="editDeadlineTime">Edit Time</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="your_tasks">Your Tasks</string>
+    <string name="no_milestones">There are no objectives for this task</string>
+    <string name="edit_date">Edit Date</string>
+    <string name="edit_time">Edit Time</string>
+    <string name="edit_task">Edit Task</string>
+    <string name="edit_this_task">Edit this task:</string>
+    <string name="channel_name">Task</string>
+    <string name="hint_tap_on_milestone_to_delete_it">Hint: tap on an objective to delete it</string>
+    <string name="cancel">Cancel</string>
+    <string name="description">Description</string>
+    <string name="notes">Notes</string>
+    <string name="set_date">SET DATE</string>
+    <string name="set_time">SET TIME</string>
+    <string name="create_checklist">Create a checklist of objectives (optional)</string>
+    <string name="remind_me">Remind me</string>
+    <string name="days_before_this_task_is_due">day before this task is due</string>
+
+</resources>
